@@ -1,0 +1,11 @@
+.blog-detail-item {
+  @include mp() {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+.blog-detail-wrapper {
+  height: 80%;
+  object-fit: cover;
+  margin-bottom: 3rem;
+}

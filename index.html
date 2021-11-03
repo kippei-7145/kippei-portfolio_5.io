@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>salon demo site</title>
+   <!--swiper-->
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- googlefont -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- animecss -->
+  <link rel="stylesheet" href="animejs.css">
+  <!-- css -->
+  <link rel="stylesheet" href="sass/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <h1 class="main-ttl"><a href="index.html">Organic Hair Salon</a></h1>
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html">Top</a></li>
+          <li class="nav-item"><a href="haircatalog.html">Hair Catalog</a></li>
+          <li class="nav-item"><a href="staff.html">Staff</a></li>
+          <li class="nav-item"><a href="blog.html">Blog</a></li>
+        </ul>
+        <div class="sns-icon-area">
+          <div class="sns-icon-img-wrapper">
+            <a href="#">
+              <img src="img/icon_instagram.svg" alt="">
+            </a>
+          </div><!--sns-icon-img-wrapper"-->
+          <div class="sns-icon-img-wrapper">
+            <a href="#">
+              <img src="img/icon_facebook.svg" alt="">
+            </a>
+          </div><!--sns-icon-img-wrapper"-->
+        </div><!--sns-icon-area-->
+      </nav>
+      <!-- HBボタン -->
+      <div class="burger-btn">
+        <div class="burger-inner">
+          <span class="bar bar_top"></span>
+          <span class="bar bar_mid"></span>
+          <span class="bar bar_bottom"></span>
+        </div><!--burger-inner-->
+      </div><!--burger-btn-->
+      <span class="burger-musk"></span>
+    </div>
+  </header>
+  <!-- fvエリア -->
+  <div class="fv-wrapper fv">
+    <div class="main-copy">
+      <!-- <div class="fv-sub-ttl">ALWAYS</div> -->
+      <div class="fv-ttl">Realize</div>
+      <div class="fv-ttl">what you want to be</div>
+    </div><!--main-copy-->
+  </div><!--swiper-fv--->
+  <!-- 予約ボタン -->
+  <button class="reserve-btn">
+    <a href="contact.html">
+      <p class="rv-bl">RESERVE</p>
+      <span>ご予約はこちらから</span>
+    </a>
+  </button>
+  <main>
+     <!--Haier Catalogエリア-->
+     <section class="section-wrapper">
+      <!-- <div class="container"> -->
+          <h2 class="section-ttl">Hair Catalog</h2>
+        <ul class="catalog-list">
+          <li class="catalog-item big-box big-box_01"  data-aos="fade-in-up"  data-aos-duration="1000"><img src="img/haircatalog_06.jpeg" alt=""></li>
+          <li class="catalog-item big-box big-box_02"  data-aos="fade-in-up"  data-aos-duration="1300"><img src="img/haircatalog_09.jpeg" alt=""></li>
+          <li class="catalog-item big-box big-box_03"  data-aos="fade-in-up"  data-aos-duration="1600"><img src="img/haircatalog_07.jpeg" alt=""></li>
+          <li class="catalog-item big-box big-box_04"  data-aos="fade-in-up"  data-aos-duration="1800"><img src="img/haircatalog_03.jpeg" alt=""></li>
+          <li class="catalog-item big-box big-box_05"  data-aos="fade-in-up"  data-aos-duration="1600"><img src="img/haircatalog_04.jpeg" alt=""></li>
+          <li class="catalog-item big-box big-box_06"  data-aos="fade-in-up"  data-aos-duration="1600"><img src="img/haircatalog_05.jpeg" alt=""></li>
+          </ul>
+        <div class="btn-wrapper">
+          <button class="btn"><a href="haircatalog.html">Virw More</a></button>
+        </div><!--btn-wrapper-->
+      </section>
+    <!-- conceptエリア -->
+    <section class="section-wrapper">
+          <h2 class="section-ttl">Concept</h2>
+        <div class="container">
+          <ul class="concept-list">
+            <li class="concept-item" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="100">
+              <img src="img/concept_01.jpeg" alt="">
+              <div class="concept-text-box">
+                <h3 class="concept-ttl">お客様のなりたいを叶える</h3>
+                <p class="lines">経験豊富な美容技術を持ち、多くの経験を積んだ実力派スタイリストが揃っています。まずはお客様の声に耳を傾け、髪や骨格のお悩みなどを考慮したデザインをご提案いたします!多くのお客様と接してきたスタッフだからこそ創れる、お客様が笑顔になれるスタイルを実感してください。</p>
+              </div><!--concept-text-box-->
+            </li>
+            <li class="concept-item flex-reserve" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="550" data-aos-offset="50">
+              <img src="img/concept_02.jpeg" alt="">
+              <div class="concept-text-box">
+                <h3 class="concept-ttl">こだわりの一流材料を使用</h3>
+                <p class="lines">オーナー自ら厳選した、こだわりの一流材料を使用。よりよいオーガニックライフを提供し、お客様の髪の毛を守ります。</p>
+              </div><!--concept-text-box-->
+            </li>
+          </ul>
+        </div><!--container-->
+        </section>
+        <!-- staffエリア -->
+        <section class="section-wrapper swiper-navi staff-bg" data-aos="fade-in"  data-aos-duration="3000">
+          <h2 class="section-ttl">Stylist</h2>
+      <div class="container">
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" data-aos="fade-in"  data-aos-duration="2000">
+              <div class="swiper-img-wrapper">
+                <img src="img/staff_01.jpeg" alt="">
+              </div><!--swiper-img-wrapper-->
+            <div class="swiper-text">
+              <p class="swiper-ttl lines">Stylist</p>
+                <p class="name lines">Ikdea Aoi</p> 
+                <p class="lines">池田 蒼</p> 
+            </div><!--swiper-text-->
+          </div><!--swiper-slide-->
+            <div class="swiper-slide" data-aos="fade-in"  data-aos-duration="2300">
+              <div class="swiper-img-wrapper">
+                <img src="img/staff_02.jpeg" alt="">
+              </div><!--swiper-img-wrapper-->
+            <div class="swiper-text">
+              <p class="swiper-ttl lines">Stylist</p>
+                <p class="name lines">Kobayashi Kaoru</p> 
+                <p class="lines">小林 馨</p> 
+            </div><!--swiper-text-->
+          </div><!--swiper-slide-->
+            <div class="swiper-slide" data-aos="fade-in"  data-aos-duration="2600">
+              <div class="swiper-img-wrapper">
+                <img src="img/staff_03.jpeg" alt="">
+              </div><!--swiper-img-wrapper-->
+            <div class="swiper-text">
+              <p class="swiper-ttl lines">Stylist</p>
+                <p class="name lines">Higa Rui</p> 
+                <p class="lines">比嘉 累</p> 
+            </div><!--swiper-text-->
+          </div><!--swiper-slide-->
+          </div><!--swiper-wrapper-->
+        </div><!--swiper-container-->
+        <div class="btn-wrapper btn-wh">
+          <button class="btn"><a  href="staff.html">Virw More</a></button>
+        </div><!--text-cenetr-->
+      </div><!--container-->
+    </section>
+    <!-- menuエリア-->
+    <section class="section-wrapper menu-bg">
+      <h2 class="section-ttl_wh text-wh">Menu</h2>
+      <div class="container">
+        <ul class="menu-list">
+            <li class="menu-item">
+              <p class="menu-ttl">Cut</p>
+              <div class="menu-content">
+                <p class="content">カット</p>
+                <p class="price">¥4200</p>
+              </div><!--menu-concept-->
+              <div class="menu-content">
+                <p class="content">スクールカット</p>
+                <p class="price">¥3400</p>
+              </div><!--menu-concept-->
+            </li>
+            <li class="menu-item">
+              <p class="menu-ttl">Color</p>
+              <div class="menu-content">
+                <p class="content">シングルカラー</p>
+                <p class="price">¥4730</p>
+              </div><!--menu-concept-->
+              <div class="menu-content">
+                <p class="content">イルミナカラー</p>
+                <p class="price">¥6930</p>
+              </div><!--menu-concept-->
+              <div class="menu-content">
+                <p class="content">オーガニックカラー</p>
+                <p class="price">¥6380</p>
+              </div><!--menu-concept-->
+              <div class="menu-content">
+                <p class="content">バレイヤージュカラー</p>
+                <p class="price">¥17600</p>
+              </div><!--menu-concept-->
+              <div class="menu-content">
+                <p class="content">グラデーショングラデーションカラー</p>
+                <p class="price">¥14500</p>
+              </div><!--menu-concept-->
+            </li>
+            <li class="menu-item">
+              <p class="menu-ttl">Perm</p>
+              <div class="menu-content">
+                <p class="content">ナチュラルウェーブ</p>
+                <p class="price">¥6500</p>
+              </div><!--menu-concept-->
+              <div class="menu-content">
+                <p class="content">デジタルパーマ</p>
+                <p class="price">¥10500</p>
+              </div><!--menu-concept-->
+            </li>
+        </ul><!--menu-list-->
+      </div><!--container-->
+      </section>
+    <!-- blogエリア -->
+    <section class="section-wrapper">
+      <h2 class="section-ttl">Blog</h2>
+      <div class="container">
+        <ul class="blog-list">
+          <li class="blog-item"><a href=""><img src="img/blog_01.jpg" alt=""></a></li>
+          <li class="blog-item"><a href=""><img src="img/blog_02.jpeg" alt=""></a></li>
+          <li class="blog-item"><a href=""><img src="img/blog_03.jpg" alt=""></a></li>
+        </ul>
+        <div class="btn-wrapper">
+          <button class="btn"><a href="blog.html">Virw More</a></button>
+        </div><!--btn-wrapper-->
+      </div><!--container-->
+    </section>
+    <!-- accessエリア -->
+    <section class="section-wrapper">
+      <h2 class="section-ttl">Access</h2>
+      <div class="container">
+        <div class="access-wapper">
+          <ul class="access-list">
+            <li class="access-item">
+              <p class="access-info lines">住所：</p>
+              <p class="lines">〒060-0042 帯広市西20条1目1-1</p>
+            </li>
+            <li class="access-item">
+              <p class="access-info lines">受付時間：</p>
+              <p class="lines">10:00 〜 19:00</p>
+            </li>
+            <li class="access-item">
+              <p class="access-info lines">定休日：</p>
+              <p class="lines">毎週月曜日/第３日曜日</p>
+            </li>
+            <li class="access-item">
+              <p class="access-info lines">備考：</p>
+              <p class="lines">駐車場有り（10台）</p>
+            </li>
+          </ul><!--access-text-box-->
+          <div class="google-map">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5843.955752133605!2d143.14382257621668!3d42.91550757398518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f739bf617411b4f%3A0xad21f0af7c5b4c3e!2z44CSMDgwLTI0NzAg5YyX5rW36YGT5biv5bqD5biC6KW_77yS77yQ5p2h5Y2X77yT5LiB55uu!5e0!3m2!1sja!2sjp!4v1632642294122!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div><!--google-map-->
+      </div><!--access-wrapper-->
+     </div><!--container-->
+    </section>
+    <!-- お問い合わせエリア -->
+    <section class="section-wrapper">
+      <div class="container">
+        <div class="reserve-area">
+          <p class="lines">お電話でのご予約はこちらから</p>
+          <a href="tel:0154-74-9012" class="icon_tel">
+            <img src="img/icon_tel.svg" alt="">
+          </a><!--icon_tel-->
+        </div><!--reserve-area-->
+      </div><!--container-->
+    </section>
+    <!-- SNSエリア -->
+    <section>
+      <div class="container">
+        <div class="sns-icon-area">
+          <div class="sns-icon-img-wrapper">
+            <a href="#">
+              <img src="img/icon_instagram.svg" alt="">
+            </a>
+          </div><!--sns-icon-img-wrapper"-->
+          <div class="sns-icon-img-wrapper">
+            <a href="#">
+              <img src="img/icon_facebook.svg" alt="">
+            </a>
+          </div><!--sns-icon-img-wrapper"-->
+        </div><!--sns-icon-area-->
+      </div><!--container-->
+    </section>
+  </main>
+  <footer class="footer">
+    <small>©︎Organic Hair Salon</small>
+  </footer>
+  <script src="anime.min.js"></script>
+  <!--Aos-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--swiper-->
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="ls/script.js"></script>
+</body>
+</html>

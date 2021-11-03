@@ -1,0 +1,9 @@
+// カラーコード
+$colors :(
+main: #03400f,
+sub: #fff,
+bl: #000 
+);
+@function color($color) {
+  @return #{map-get($colors, $color)}
+}

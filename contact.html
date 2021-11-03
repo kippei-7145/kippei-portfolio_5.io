@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="美容室のdemoサイト">
+  <title>salon demo site[reserve-menu]</title>
+   <!--swiper-->
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- googlefont -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!--flatpickr-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ja.js"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="sass/_contact.scss">
+  <link rel="stylesheet" href="sass/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <h1 class="main-ttl"><a href="index.html">Organic Hair Salon</a></h1>
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html">Top</a></li>
+            <li class="nav-item"><a href="styling.html">Styling</a></li>
+            <li class="nav-item"><a href="staff.html">Staff</a></li>
+            <li class="nav-item"><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+<!-- HBボタン -->
+      <div class="burger-btn">
+        <div class="burger-inner">
+          <span class="bar bar_top"></span>
+          <span class="bar bar_mid"></span>
+          <span class="bar bar_bottom"></span>
+        </div><!--burger-inner-->
+      </div><!--burger-btn-->
+      <span class="burger-musk"></span>
+   </div><!--header-nav-->
+  </header>
+  <div class="fv contact-fv">
+    <div class="main-copy">
+      <div class="fv-ttl">Reserve</div>
+    </div><!--main-copy-->
+  </div><!--fv-->
+  <main>
+    <!-- contactエリア -->
+  <section class="section-wrapper">
+    <div class="contact-container">
+      <div class="contact-ttl">予約フォーム</div>
+      <div class="form-description lines">
+        この度はOrganic Hair Salon Axisへのご予約誠にありがとうございます<br>
+        下記の必要な項目にチェックを入れ、ご予約を完了してください。
+      </div>
+      <form action="">
+        <ul class="form-list">
+          <li class="form-item">
+            <div class="label-ttl">
+              <label for="text">お名前</label>
+            </div><!--label-ttl-->
+            <input type="text" class="text-box" placeholder="山田　太郎">
+          </li>
+          <li class="form-item">
+            <div class="label-ttl">
+              <label for="text">メールアドレス</label>
+            </div><!--label-ttl-->
+            <input type="email" class="text-box" placeholder="Example@example.com">
+          </li>
+          <li class="form-item">
+            <div class="label-ttl">
+              <label for="text">ご希望のプランを選択してください</label>
+            </div>
+            <select name="" id="" class="select-box">
+              <option value='' class="select-ttl" disabled selected style='display:none;'>選択してください</option>
+              <option value="opution_1">カット</option>
+              <option value="opution_2">カラー</option>
+              <option value="opution_3">パーマ</option>
+            </select>
+          </li>
+          <li class="form-item">
+            <div class="label-ttl">
+              <label for="data">日時選択</label>
+            </div><!--label-ttl-->
+            <input type="text" id="flatpickr" class="flatpicker-text" placeholder="日時を選択してください">
+          </li>
+          <li class="form-item">
+            <div class="label-ttl">
+              <label for="time">ご希望の時間をご入力ください</label>
+            </div><!--label-ttl-->
+            <input type="text" class="text-box" placeholder="例：14時">
+          </li>
+        </ul>
+        <div class="submit-wrapper">
+          <input type="submit" value="送信する" class="submit-btn">
+        </div><!--submit-wrapper-->
+      </form>
+    </div><!--contact-wrapper-->
+  </section>
+    <!-- SNSエリア -->
+    <section>
+      <div class="container">
+        <div class="sns-icon-area">
+          <div class="sns-icon-img-wrapper">
+            <a href="#">
+              <img src="img/icon_instagram.svg" alt="">
+            </a>
+          </div><!--sns-icon-img-wrapper"-->
+          <div class="sns-icon-img-wrapper">
+            <a href="#">
+              <img src="img/icon_facebook.svg" alt="">
+            </a>
+          </div><!--sns-icon-img-wrapper"-->
+        </div><!--sns-area-->
+      </div><!--container-->
+    </section>
+  </main>
+  <footer class="footer">
+    <small>©︎Organic Hair Salon</small>
+  </footer>
+  <!--Aos-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--swiper-->
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    flatpickr("#flatpickr", {
+      // 日本語化
+    locale:"ja",
+    // 今日以前に日付の選択を不可
+    minDate:"today"
+    });
+    </script>
+  <script src="ls/script.js"></script>
+</body>
+</html>

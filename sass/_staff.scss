@@ -1,0 +1,27 @@
+.staff-fv {
+  background-image: url(../img/staff-bg.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 80vw;
+  height: 70vh;
+  min-height: 300px;
+  position: relative
+}
+.staff-grid-wrapper {
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: repeat( auto-fit, minmax(300px, 2fr));
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.staff-item {
+  width: 100%;
+  box-shadow: 2px 4px 10px -6px rgb(0,0,0 / 60%);
+}
+.staff-img-wrapper {
+  img {
+    height: 400px;
+    object-fit: cover;
+  }
+}

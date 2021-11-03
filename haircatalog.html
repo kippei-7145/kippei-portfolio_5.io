@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="美容室のdemoサイト">
+  <title>salon demo site[reserve-menu]</title>
+   <!--swiper-->
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- googlefont -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!--flatpickr-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ja.js"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="sass/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <h1 class="main-ttl"><a href="index.html">Organic Hair Salon Axis</a></h1>
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html">Top</a></li>
+            <li class="nav-item"><a href="haircatalog.html">Hair Catalog</a></li>
+            <li class="nav-item"><a href="staff.html">Staff</a></li>
+            <li class="nav-item"><a href="blog.html">Blog</a></li>
+          </ul>
+          <div class="sns-icon-area">
+            <div class="sns-icon-img-wrapper">
+              <a href="#">
+                <img src="img/icon_instagram.svg" alt="">
+              </a>
+            </div><!--sns-icon-img-wrapper"-->
+            <div class="sns-icon-img-wrapper">
+              <a href="#">
+                <img src="img/icon_facebook.svg" alt="">
+              </a>
+            </div><!--sns-icon-img-wrapper"-->
+          </div><!--sns-icon-area-->
+        </nav>
+<!-- HBボタン -->
+      <div class="burger-btn">
+        <div class="burger-inner">
+          <span class="bar bar_top"></span>
+          <span class="bar bar_mid"></span>
+          <span class="bar bar_bottom"></span>
+        </div><!--burger-inner-->
+      </div><!--burger-btn-->
+      <span class="burger-musk"></span>
+      </div><!--header-inner-->
+  </header>
+  <div class="fv styling-fv">
+    <div class="main-copy">
+      <div class="fv-ttl">Haier Catalog</div>
+    </div><!--main-copy-->
+  </div><!--fv-->
+       <!-- 予約ボタン -->
+       <button class="reserve-btn">
+        <a href="contact.html">
+          <p class="rv-bl">RESERVE</p>
+          <span>ご予約はこちらから</span>
+        </a>
+      </button>
+  <main>
+    <!--stylingエリア -->
+  <section class="section-wrapper">
+    <div class="container">
+      <ul class="tab">
+        <li class="active"><a href="#all">All</a></li>
+        <li><a href="#perm">Perm</a></li>
+        <li><a href="#short">Short</a></li>
+        <li><a href="#long">Long</a></li>
+      </ul>
+      <div id="all" class="area is-active">
+         <ul class="grid">
+           <li class="grid-item" data-aos="fade-up"  data-aos-duration="2000"><img src="img/haircatalog_01.jpeg" alt=""></li>
+           <li class="grid-item" data-aos="fade-up"  data-aos-duration="2000"><img src="img/haircatalog_02.jpeg" alt=""></li>
+           <li class="grid-item" data-aos="fade-up"  data-aos-duration="2000"><img src="img/haircatalog_03.jpeg" alt=""></li>
+           <li class="grid-item" data-aos="fade-up"  data-aos-duration="2000"><img src="img/haircatalog_04.jpeg" alt=""></li>
+           <li class="grid-item" data-aos="fade-up"  data-aos-duration="2000"><img src="img/haircatalog_05.jpeg" alt=""></li>
+           <li class="grid-item" data-aos="fade-up"  data-aos-duration="2000"><img src="img/haircatalog_06.jpeg" alt=""></li>
+           <li class="grid-item" data-aos="fade-up"  data-aos-duration="2000"><img src="img/haircatalog_07.jpeg" alt=""></li>
+           <li class="grid-item" data-aos="fade-up"  data-aos-duration="2000"><img src="img/haircatalog_08.jpeg" alt=""></li>
+           <li class="grid-item" data-aos="fade-up"  data-aos-duration="2000"><img src="img/haircatalog_09.jpeg" alt=""></li>
+         </ul>
+       </div><!--area-->
+      <div id="perm" class="area">
+       <ul class="grid">
+         <li class="grid-item"><img src="img/haircatalog_01.jpeg" alt=""></li>
+         <li class="grid-item"><img src="img/haircatalog_05.jpeg" alt=""></li>
+         <li class="grid-item"><img src="img/haircatalog_07.jpeg" alt=""></li>
+        </ul>
+      </div><!--area-->
+      <div id="short" class="area">
+        <ul class="grid">
+         <li class="grid-item"><img src="img/haircatalog_03.jpeg" alt=""></li>
+         <li class="grid-item"><img src="img/haircatalog_04.jpeg" alt=""></li>
+         <li class="grid-item"><img src="img/haircatalog_07.jpeg" alt=""></li>
+         <li class="grid-item"><img src="img/haircatalog_08.jpeg" alt=""></li>
+         <li class="grid-item"><img src="img/haircatalog_09.jpeg" alt=""></li>
+        </ul>
+      </div><!--area-->
+      <div id="long" class="area">
+        <ul class="grid">
+         <li class="grid-item"><img src="img/haircatalog_02.jpeg" alt=""></li>
+         <li class="grid-item"><img src="img/haircatalog_05.jpeg" alt=""></li>
+         <li class="grid-item"><img src="img/haircatalog_06.jpeg" alt=""></li>
+        </ul>
+       </div><!--area-->
+    </div><!--container-->
+  </section>
+    <!-- お問い合わせエリア -->
+    <section class="section-wrapper">
+      <div class="container">
+        <div class="reserve-area">
+          <p class="lines">お電話でのご予約はこちらから</p>
+          <a href="tel:0154-74-9012" class="icon_tel">
+            <img src="img/icon_tel.svg" alt="">
+          </a><!--icon_tel-->
+        </div><!--reserve-area-->
+      </div><!--container-->
+    </section>
+    <!-- SNSエリア -->
+    <section>
+      <div class="container">
+        <div class="sns-icon-area">
+          <div class="sns-icon-img-wrapper">
+            <a href="#">
+              <img src="img/icon_instagram.svg" alt="">
+            </a>
+          </div><!--sns-icon-img-wrapper"-->
+          <div class="sns-icon-img-wrapper">
+            <a href="#">
+              <img src="img/icon_facebook.svg" alt="">
+            </a>
+          </div><!--sns-icon-img-wrapper"-->
+        </div><!--sns-area-->
+      </div><!--container-->
+    </section>
+  </main>
+  <footer class="footer">
+    <small>©︎Organic Hair Salon AXIS</small>
+  </footer>
+  <!--Aos-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--swiper-->
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    flatpickr("#flatpickr", {
+      // 日本語化
+    locale:"ja",
+    // 今日以前に日付の選択を不可
+    minDate:"today"
+    });
+    </script>
+  <script src="ls/script.js"></script>
+</body>
+</html>
